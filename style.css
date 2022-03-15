@@ -1,0 +1,102 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #e0e0e0;
+	color: #1d1d1d;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("./fondoPoke.png");
+    
+}
+
+.title{
+display: flex;
+justify-content: center;
+margin: 55px;
+cursor:pointer;
+}
+
+.title2{
+    width: 500px;
+}
+
+.busqueda{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.buttonBuscar{
+    border-radius: 30px;
+    border-color:#1d1d1d ;
+    width:80px;
+    height: 35px;
+    font-weight: 900;
+    cursor: pointer;
+    
+}
+
+.buttonBuscar2{
+    border-radius: 30px;
+    border-color:#1d1d1d ;
+    width:80px;
+    height: 35px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-left: 18px;
+    
+}
+
+.imputBuscar{
+width:250px;
+height: 35px;
+margin-right:10px;
+border-radius: 30px;
+text-align: center;
+}
+
+
+.contenedor{
+     display: flex;
+    flex-wrap: wrap;
+    max-width: 1900px;
+    justify-content: center;
+}
+
+
+.pokemons{
+    text-align: center;
+    max-width: 150px;
+    text-transform:uppercase;
+    border:solid 3px rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(210, 210, 210);
+}
+
+.pokeImg{
+    border:solid 3px red;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 6px;
+    background-color: #1d1d1d;
+}
+
+.busqueda2a{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+.busqueda2b{
+    width: 250px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+}
